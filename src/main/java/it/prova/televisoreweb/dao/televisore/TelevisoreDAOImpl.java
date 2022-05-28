@@ -3,6 +3,8 @@ package it.prova.televisoreweb.dao.televisore;
 import java.sql.Connection;
 import java.util.List;
 
+import it.prova.televisoreweb.model.Televisore;
+
 public class TelevisoreDAOImpl implements TelevisoreDAO {
 	
 	private Connection connection;

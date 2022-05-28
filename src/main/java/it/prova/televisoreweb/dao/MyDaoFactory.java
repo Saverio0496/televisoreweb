@@ -1,5 +1,7 @@
 package it.prova.televisoreweb.dao;
 
+import it.prova.televisoreweb.dao.televisore.TelevisoreDAO;
+import it.prova.televisoreweb.dao.televisore.TelevisoreDAOImpl;
 
 public class MyDaoFactory {
 

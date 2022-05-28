@@ -4,19 +4,21 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import it.prova.televisoreweb.model.Televisore;
+
 public class DB_Mock {
 	public static final List<Televisore> LISTA_TELEVISORI = new ArrayList<>();
 
 	static {
 		// preparo una lista mock perché ancora non ho il collegamento alla
 		// base dati
-		LISTA_TELEVISORI.add(new Televisore(1l, "mario", "rossi", "mrs111", 60, "ciao a tutti"));
-		LISTA_TELEVISORI.add(new Televisore(2l, "mario2", "rossi2", "mrs222", 40, "mi piace"));
-		LISTA_TELEVISORI.add(new Televisore(3l, "mario3", "rossi3", "mrs333", 29, "lascia stare"));
-		LISTA_TELEVISORI.add(new Televisore(4l, "peppe", "bianchi", "pppbbb4", 23, "evviva il giorno"));
-		LISTA_TELEVISORI.add(new Televisore(5l, "pluto", "rossi", "plros", 17, "la luna bussò"));
-		LISTA_TELEVISORI.add(new Televisore(6l, "mario36", "rossi36", "mrs366", 39, "Highway to hell"));
-		LISTA_TELEVISORI.add(new Televisore(7l, "antonio", "sattoni", "mrs333", 77, "le ali della libertà"));
+		LISTA_TELEVISORI.add(new Televisore(1L, "LG", "6565H", 300, 60, "65456456YU"));
+		LISTA_TELEVISORI.add(new Televisore(2L, "Sony", "5648J", 120, 40, "9878977IO"));
+		LISTA_TELEVISORI.add(new Televisore(3L, "Samsung", "0912F", 600, 30, "985122544PL"));
+		LISTA_TELEVISORI.add(new Televisore(4L, "Apple", "0921K", 500, 21, "3453454354LM"));
+		LISTA_TELEVISORI.add(new Televisore(5L, "TCL", "9124R", 200, 50, "12312321UI"));
+		LISTA_TELEVISORI.add(new Televisore(6L, "Philips", "5454P", 199, 19, "6532654RF"));
+		LISTA_TELEVISORI.add(new Televisore(7L, "Hisense", "3198Y", 789, 55, "62348987TY"));
 	}
 
 	public static Long getNexIdAvailable() {
