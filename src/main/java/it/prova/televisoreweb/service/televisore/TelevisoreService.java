@@ -10,7 +10,7 @@ public interface TelevisoreService {
 	
 	public void setTelevisoreDAO(TelevisoreDAO televisoreDAO);
 
-	public List<Televisore> cercaPerNomeECognome(String nome, String cognome);
+	public List<Televisore> cercaPerMarcaEModello(String nome, String cognome);
 	
 	public List<Televisore> elencaTutti() throws Exception;
 	
