@@ -50,7 +50,7 @@
 	
 	</table>
 	
-	<a href="">Inserisci nuovo</a>
+	<a href="PrepareInsertTelevisoreServlet">Inserisci nuovo</a>
 
 </body>
 </html>
