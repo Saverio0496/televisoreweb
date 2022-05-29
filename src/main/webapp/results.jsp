@@ -40,9 +40,9 @@
 					<td><%=televisoreItem.getMarca() %></td>
 					<td><%=televisoreItem.getModello() %></td>
 					<td>
-						<a href="=<%=televisoreItem.getIdTelevisore() %>">Dettaglio</a>
-						<a href="=<%=televisoreItem.getIdTelevisore() %>">Modifica</a>
-						<a href="=<%=televisoreItem.getIdTelevisore() %>">Elimina</a>
+						<a href="ExecuteShowTelevisoreServlet?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Dettaglio</a>
+						<a href="?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Modifica</a>
+						<a href="?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Elimina</a>
 						
 					</td>
 				</tr>
