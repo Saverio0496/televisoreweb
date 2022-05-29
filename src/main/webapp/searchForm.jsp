@@ -12,7 +12,7 @@
 	<%  }else{ %>
 		Inserire dati da ricercare<br>
 	<%}    %>
-	<form action="">
+	<form action="ExecuteSearchTelevisoreServlet" method="post">
 		<label for="marcaIdInput">MARCA</label><br>
 		<input type="text" name="marcaInput" id="marcaIdInput">
 		<br>
