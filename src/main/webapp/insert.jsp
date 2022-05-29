@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="">
+	<form action="ExecuteInsertTelevisoreServlet" method="post">
 		<label for="marcaInputId">MARCA</label><br>
 		<input type="text" name="marcaInput" id="marcaInputId">
 		<br>
