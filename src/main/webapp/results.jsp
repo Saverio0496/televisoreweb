@@ -42,7 +42,7 @@
 					<td>
 						<a href="ExecuteShowTelevisoreServlet?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Dettaglio</a>
 						<a href="PrepareUpdateTelevisoreServlet?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Modifica</a>
-						<a href="?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Elimina</a>
+						<a href="PrepareDeleteTelevisoreServlet?idDaInviareComeParametro=<%=televisoreItem.getIdTelevisore() %>">Elimina</a>
 						
 					</td>
 				</tr>
