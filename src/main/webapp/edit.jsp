@@ -10,7 +10,7 @@
 <body>
 
 	<% Televisore televisorePerModifica = (Televisore) request.getAttribute("televisoreDaModificare"); %>
-	<form action="" >
+	<form action="ExecuteUpdateTelevisoreServlet" method="post">
 		<input type="hidden" name="idTelevisore" value="<%= televisorePerModifica.getIdTelevisore() %>">		
 		
 		<label for="marcaInputId">MARCA:</label><br>
