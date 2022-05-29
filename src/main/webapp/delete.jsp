@@ -16,7 +16,7 @@
 	<p>Numero Pollici: <%= televisoreDaEliminare.getNumeroPollici() %> </p>
 	<p>Codice: <%= televisoreDaEliminare.getCodice() %> </p>
 	
-	<form action="">
+	<form action="ExecuteDeleteTelevisoreServlet" method="post">
 		<input type="submit" value="CONFERMA">
 		<input type="hidden" name="idTelevisoreDaEliminare" value="<%= televisoreDaEliminare.getIdTelevisore() %>">	
 	</form>
